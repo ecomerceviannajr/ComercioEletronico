@@ -1,0 +1,42 @@
+﻿@model NHibernateComercio.DataBase.Models.Produtora
+
+@{
+    ViewBag.Title = "DetalhesProdutora";
+}
+
+<h2>DetalhesProdutora</h2>
+
+<div>
+    <h4>Produtora</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <a href="@Url.Action("AlterarProdutora","Produtora", new { id=Model.Id })" class="btn btn-primary"><i class="glyphicon glyphicon-edit"></i> Editar</a>
+    
+</p>
