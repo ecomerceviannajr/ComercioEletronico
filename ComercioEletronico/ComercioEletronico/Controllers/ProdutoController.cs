@@ -130,5 +130,10 @@ namespace ComercioEletronico.Controllers
             }
             return View("Home", produtos);
         }
+
+        public ActionResult Busca()
+        {
+            return View();
+        }
     }
 }
