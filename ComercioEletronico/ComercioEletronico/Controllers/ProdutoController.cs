@@ -134,6 +134,14 @@ namespace ComercioEletronico.Controllers
         public ActionResult Busca()
         {
             return View();
+
+        }
+        [HttpPost]
+        public ActionResult BuscaR(String nome)
+        {
+            var produto = (IList<Produto>) DBFactory.Instance.ProdutoRepository.FindByNome(nome);
+            return View(produto);
+
         }
     }
 }
