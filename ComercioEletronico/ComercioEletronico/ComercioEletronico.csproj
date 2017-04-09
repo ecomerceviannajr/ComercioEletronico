@@ -182,6 +182,8 @@
     <Content Include="Views\Endereco\IncluirEndereco.cshtml" />
     <Content Include="Views\Produto\Busca.cshtml" />
     <Content Include="Views\Produto\BuscaR.cshtml" />
+    <Content Include="Views\Produto\BuscaAvancada.cshtml" />
+    <Content Include="Views\Produto\BuscaAvancadaR.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

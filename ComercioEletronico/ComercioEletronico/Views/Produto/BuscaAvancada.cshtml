@@ -1,0 +1,76 @@
+﻿@model NHibernateComercio.DataBase.Models.Produto
+
+@{
+    ViewBag.Title = "BuscaAvancada";
+}
+<h2>Busca Avancada</h2>
+@using (Html.BeginForm("BuscaAvancadaR", "Produto", FormMethod.Post)) 
+{
+    @*@Html.AntiForgeryToken()*@
+    
+    <div class="form-horizontal">
+       
+        <hr />
+        @*@Html.ValidationSummary(true, "", new { @class = "text-danger" })*@
+        <div class="form-group">
+            <label class="control-label col-md-2">Nome</label>
+            <div class="col-md-10">
+                <input id="nome" name="nome" type="text" value="" class="form-control col-md-2"/>
+                
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Preco</label>
+            <div class="col-md-10">
+                <input id="preco" name="preco" type="text" value="" class="form-control col-md-2" />
+               
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label class="control-label col-md-2">Ano de Lançamento</label>
+            <div class="col-md-10">
+                <input id="data" name="data" type="text" value="" class="form-control col-md-2" />
+                
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Categotia</label>
+            <div class="col-md-10">
+                <input id="categoria" name="ccategoria" type="text" value="" class="form-control col-md-2" />
+               
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Peso</label>
+            <div class="col-md-10">
+                <input id="peso" name="peso" type="text" value="" class="form-control col-md-2" />
+                
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Descrição</label>
+            <div class="col-md-10">
+                <input id="descricao" name="descricao" type="text" value="" class="form-control col-md-2" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Pesquisar" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Voltar", "Index")
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
