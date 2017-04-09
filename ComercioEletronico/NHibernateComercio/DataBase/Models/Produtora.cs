@@ -37,7 +37,7 @@ namespace NHibernateComercio.DataBase.Models
             Bag<Produto>(x => x.Produtos,
                 m =>
                 {
-                    m.Cascade(Cascade.All);
+                    m.Cascade(Cascade.Remove);
                     m.Inverse(true); // liga com a chave extrangeira de telefone
                     m.Lazy(CollectionLazy.NoLazy);
                     m.Key(k => k.Column("IdProdutora"));

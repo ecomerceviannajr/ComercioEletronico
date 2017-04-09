@@ -15,6 +15,9 @@
             <li>
                 <a href="@Url.Action("DetalhesUsuario", "Usuarios", new { id = usuario.Id })" >Usuario</a>
             </li>
+            <li>
+                <a href="@Url.Action("Index", "Interesses", new { id = usuario.Id })">Interesses</a>
+            </li>
         </ul>
     </li>
     <li>@Html.ActionLink("Sair", "Logoff", "Contas")</li>

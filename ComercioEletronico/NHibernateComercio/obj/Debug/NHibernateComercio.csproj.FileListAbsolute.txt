@@ -1,0 +1,11 @@
+C:\Users\Felipe\Desktop\GIT\ComercioEletronico\NHibernateComercio\bin\Debug\NHibernateComercio.dll.config
+C:\Users\Felipe\Desktop\GIT\ComercioEletronico\NHibernateComercio\bin\Debug\NHibernateComercio.dll
+C:\Users\Felipe\Desktop\GIT\ComercioEletronico\NHibernateComercio\bin\Debug\NHibernateComercio.pdb
+C:\Users\Felipe\Desktop\GIT\ComercioEletronico\NHibernateComercio\bin\Debug\Iesi.Collections.dll
+C:\Users\Felipe\Desktop\GIT\ComercioEletronico\NHibernateComercio\bin\Debug\MySql.Data.dll
+C:\Users\Felipe\Desktop\GIT\ComercioEletronico\NHibernateComercio\bin\Debug\NHibernate.dll
+C:\Users\Felipe\Desktop\GIT\ComercioEletronico\NHibernateComercio\bin\Debug\Iesi.Collections.xml
+C:\Users\Felipe\Desktop\GIT\ComercioEletronico\NHibernateComercio\bin\Debug\NHibernate.xml
+C:\Users\Felipe\Desktop\GIT\ComercioEletronico\NHibernateComercio\obj\Debug\NHibernateComercio.csprojResolveAssemblyReference.cache
+C:\Users\Felipe\Desktop\GIT\ComercioEletronico\NHibernateComercio\obj\Debug\NHibernateComercio.dll
+C:\Users\Felipe\Desktop\GIT\ComercioEletronico\NHibernateComercio\obj\Debug\NHibernateComercio.pdb

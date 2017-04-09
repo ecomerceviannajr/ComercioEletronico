@@ -12,7 +12,7 @@ namespace NHibernateComercio.DataBase.Models
         public virtual int Id { get; set; }
         public virtual string Nome { get; set; }
         public virtual double Preco { get; set; }
-        public virtual DateTime DataLancamento { get; set; }
+        public virtual int DataLancamento { get; set; }
         public virtual string Categoria { get; set; }
         public virtual double Peso { get; set; }
         public virtual string Descricao { get; set; }
@@ -31,7 +31,7 @@ namespace NHibernateComercio.DataBase.Models
                      });
             Property<string>(x => x.Nome);
             Property<double>(x => x.Preco);
-            Property<DateTime>(x => x.DataLancamento);
+            Property<int>(x => x.DataLancamento);
             Property<string>(x => x.Categoria);
             Property<double>(x => x.Peso);
             Property<string>(x => x.Descricao);

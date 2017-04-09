@@ -24,6 +24,7 @@ namespace NHibernateComercio.DataBase
         public ProdutoraRepository ProdutoraRepository { get; set; }
         public ProdutoRepository ProdutoRepository { get; set; }
         public FotoRepository FotoRepository { get; set; }
+        public InteressesRepository InteressesRepository { get; set; }
 
         private DBFactory()
         {
@@ -33,6 +34,7 @@ namespace NHibernateComercio.DataBase
             this.ProdutoraRepository = new ProdutoraRepository(this.Session);
             this.ProdutoRepository = new ProdutoRepository(this.Session);
             this.FotoRepository = new FotoRepository(this.Session);
+            this.InteressesRepository = new InteressesRepository(this.Session);
 
         }
 
@@ -55,7 +57,7 @@ namespace NHibernateComercio.DataBase
 
             try
             {
-                var stringConexao = "Persist Security Info=False;server=localhost;port=3306;database=comercioeletronico;uid=root;pwd=aluno";
+                var stringConexao = "Persist Security Info=False;server=localhost;port=3306;database=comercioeletronico;uid=root;pwd=1234";
                 var mySql = new MySqlConnection(stringConexao);
                 try
                 {

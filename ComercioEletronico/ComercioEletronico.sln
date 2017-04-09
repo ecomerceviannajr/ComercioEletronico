@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComercioEletronico", "ComercioEletronico\ComercioEletronico.csproj", "{F1E4E923-12DC-4896-97E8-C52628C3B21B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateComercio", "..\..\..\Documents\ComercioEletronico-master\ComercioEletronico-master\ComercioEletronico\NHibernateComercio\NHibernateComercio.csproj", "{561D3BEF-BB94-49A3-859F-D79E403A69E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateComercio", "NHibernateComercio\NHibernateComercio.csproj", "{561D3BEF-BB94-49A3-859F-D79E403A69E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

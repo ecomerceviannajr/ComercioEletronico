@@ -146,6 +146,7 @@
     <Compile Include="Controllers\ContasController.cs" />
     <Compile Include="Controllers\EnderecoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InteressesController.cs" />
     <Compile Include="Controllers\ProdutoController.cs" />
     <Compile Include="Controllers\ProdutoraController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
@@ -184,6 +185,7 @@
     <Content Include="Views\Produto\BuscaR.cshtml" />
     <Content Include="Views\Produto\BuscaAvancada.cshtml" />
     <Content Include="Views\Produto\BuscaAvancadaR.cshtml" />
+    <Content Include="Views\Interesses\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -195,7 +197,7 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Documents\ComercioEletronico-master\ComercioEletronico-master\ComercioEletronico\NHibernateComercio\NHibernateComercio.csproj">
+    <ProjectReference Include="..\NHibernateComercio\NHibernateComercio.csproj">
       <Project>{561d3bef-bb94-49a3-859f-d79e403a69e3}</Project>
       <Name>NHibernateComercio</Name>
     </ProjectReference>

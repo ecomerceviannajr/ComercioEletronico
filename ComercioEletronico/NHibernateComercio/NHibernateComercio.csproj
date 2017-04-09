@@ -60,6 +60,7 @@
     <Compile Include="DataBase\Models\Endereco.cs" />
     <Compile Include="DataBase\Models\FormasPagamento.cs" />
     <Compile Include="DataBase\Models\Foto.cs" />
+    <Compile Include="DataBase\Models\Interesses.cs" />
     <Compile Include="DataBase\Models\NotaFiscal.cs" />
     <Compile Include="DataBase\Models\Produto.cs" />
     <Compile Include="DataBase\Models\ProdutoCarrinho.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="DataBase\Models\Venda.cs" />
     <Compile Include="DataBase\Repository\EnderecoRepository.cs" />
     <Compile Include="DataBase\Repository\FotoRepository.cs" />
+    <Compile Include="DataBase\Repository\InteressesRepository.cs" />
     <Compile Include="DataBase\Repository\ProdutoraRepository.cs" />
     <Compile Include="DataBase\Repository\ProdutoRepository.cs" />
     <Compile Include="DataBase\Repository\RepositoryBase.cs" />

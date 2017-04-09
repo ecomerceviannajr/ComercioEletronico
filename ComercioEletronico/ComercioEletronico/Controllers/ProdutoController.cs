@@ -148,12 +148,12 @@ namespace ComercioEletronico.Controllers
             return View();
 
         }
-        [HttpPost]
-        public ActionResult BuscaAvancadaR(string nome = null, Double preco =0 , int data = 0, String categoria = null, Double peso =0, String descricao = null)
-        {
-            var produto = (IList<Produto>)DBFactory.Instance.ProdutoRepository.FindByIdAvancada(nome, preco, data, categoria, peso ,descricao);
-            return View(produto);
+        //[HttpPost]
+        //public ActionResult BuscaAvancadaR(string nome = null, Double preco =0 , int data = 0, String categoria = null, Double peso =0, String descricao = null)
+        //{
+        //    //var produto = (IList<Produto>)DBFactory.Instance.ProdutoRepository.FindByIdAvancada(nome, preco, data, categoria, peso ,descricao);
+        //    //return View(produto);
 
-        }
+        //}
     }
 }
